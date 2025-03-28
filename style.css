@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh; 
+}
+        header {
+            background: #fff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .search-container {
+            position: absolute;
+            top: 20px;
+            left: 1320px;
+            border-bottom: 2px solid #333;
+            max-width: 200px;
+            padding-bottom: 0px;
+            margin-bottom: 0px; 
+        }
+        
+        .search-container input {
+            width: 350px;
+            height: 29px;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            outline: none
+        }
+        
+        .custom-nav {
+            position: absolute;
+            top: 74px;
+            left: 1115px;
+            width: 499px;
+            height: 23px;
+        }
+        
+        .custom-nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .custom-nav ul li {
+            display: inline;
+        }
+        
+        .custom-nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+            font-size: 14px; 
+        }
+        
+        .custom-nav ul li a:hover {
+            color: green;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: green;
+        }
+        
+        .hero {
+            background: url('hero.png') no-repeat center center/cover;
+            height: 480px;
+        }
+        .contact-form {
+            position: relative;
+            width: 100%;
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 40px;
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .contact-form form {
+            position: relative;
+        }
+        
+        .name, .company-name, .position, .city, .country, .telephone, .email {
+            width: 350px;
+            height: 55px;
+            position: absolute;
+            left: 205px;
+        }
+        .name { top: 149px; }
+        .company-name { top: 260px; }
+        .position { top: 372px; }
+        .city { top: 484px; }
+        .country { top: 596px; }
+        .telephone { top: 708px; }
+        .email { top: 820px; }
+        
+        .you-are, .if-other, .you-are-interested {
+            position: absolute;
+            left: 630px;
+            width: 635px;
+        }
+        .you-are { height: 55px; top: 149px; }
+        .if-other { height: 55px; top: 260px; }
+        .you-are-interested { height: 390px; top: 372px; }
+        
+        .verification {
+            position: absolute;
+            left: 755px;
+            top: 820px;
+            width: 225px;
+            height: 55px;
+        }
+        
+        .send-message {
+            position: absolute;
+            left: 1010px;
+            top: 820px;
+            width: 225px;
+            height: 55px;
+            background: #4CAF50;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .send-message:hover {
+            background: #45a049;
+        }
+
+        .our-address {
+            background: white;
+            text-align: center;
+            padding: 15px;
+            background: none;
+            position: absolute;
+            margin-top: 865px;
+            width: 100%;
+        }
+        
+        .our-address h2 {
+            color: #4CAF50;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .our-address h2::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: #4CAF50;
+            margin-top: 5px;
+        }
+        
+        .our-address p {
+            font-size: 16px;
+            color: #333;
+        }
+        
+        .our-address p span {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        
+.class {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    bottom: -1025px;
+    left: 0;
+    right: 0;
+}
+
+.class-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.class-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+        
+footer {
+    text-align: center;
+    padding: 5px;
+    background: #222;
+    color: #fff;
+    position: relative;
+    margin-top: 1200px;
+}
